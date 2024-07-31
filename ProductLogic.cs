@@ -9,8 +9,8 @@ namespace PetStore
     internal class ProductLogic
     {
         private List<Product> _products;
-        private Dictionary<string, DogLeash> _dogLeash;
-        private Dictionary<string, CatFood> _catFood;
+        private Dictionary<string?, DogLeash> _dogLeash;
+        private Dictionary<string?, CatFood> _catFood;
 
         public ProductLogic()
         {
